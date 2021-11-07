@@ -20,6 +20,7 @@ public class StoreController {
 		stores.add(new Store(2,"McDonald's","Hambuerguesas","Carnes","url"));
 		stores.add(new Store(3,"Burger King","Hambuerguesas","Carnes","url"));
 		stores.add(new Store(4,"Burger ","Papas","Papas","url"));
+		stores.add(new Store(5,"Licores ","Cerveza","Gaseosas","url"));
 	}
 	
 	@GetMapping("/stores")
