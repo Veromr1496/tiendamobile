@@ -17,8 +17,9 @@ public class StoreController {
 	public void initialize() {
 		stores = new ArrayList<>();
 		stores.add(new Store(1,"El Corral","Hambuerguesas","Carnes","url"));
-		stores.add(new Store(1,"McDonald's","Hambuerguesas","Carnes","url"));
-		stores.add(new Store(1,"Burger King","Hambuerguesas","Carnes","url"));
+		stores.add(new Store(2,"McDonald's","Hambuerguesas","Carnes","url"));
+		stores.add(new Store(3,"Burger King","Hambuerguesas","Carnes","url"));
+		stores.add(new Store(4,"Burger ","Papas","Papas","url"));
 	}
 	
 	@GetMapping("/stores")
