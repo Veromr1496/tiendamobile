@@ -19,7 +19,7 @@ public class StoreController {
 		stores.add(new Store(1,"El Corral","Hambuerguesas","Carnes","url"));
 		stores.add(new Store(2,"McDonald's","Hambuerguesas","Carnes","url"));
 		stores.add(new Store(3,"Burger King","Hambuerguesas","Carnes","url"));
-		stores.add(new Store(4,"Burger ","Papas","Papas","url"));
+		stores.add(new Store(4,"Ferretería el Tornillo","Clavos","Tuercas","url"));
 		stores.add(new Store(5,"Licores ","Cerveza","Gaseosas","url"));
 	}
 	
