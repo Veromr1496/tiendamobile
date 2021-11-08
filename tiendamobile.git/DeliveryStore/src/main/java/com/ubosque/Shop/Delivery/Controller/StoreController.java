@@ -21,6 +21,9 @@ public class StoreController {
 		stores.add(new Store(3,"Burger King","Hambuerguesas","Carnes","url"));
 		stores.add(new Store(4,"Ferretería el Tornillo","Clavos","Tuercas","url"));
 		stores.add(new Store(5,"Licores ","Cerveza","Gaseosas","url"));
+		stores.add(new Store(6,"Cubano","Sandwich","Limonada","url"));
+		stores.add(new Store(7,"Frisby","Pollo","Jugos","url"));
+		stores.add(new Store(8,"Subway","Sandwich","Jugos","url"));
 	}
 	
 	@GetMapping("/stores")
